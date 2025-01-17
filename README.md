@@ -1,2 +1,3 @@
-# java_notes
-Notes on Java
+# Notes on Java
+
+* [Types](./notes/types.md)
