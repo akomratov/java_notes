@@ -5,18 +5,24 @@
 
 ## Primitive types
 
-Non-numeric types:
-* `boolean`
-* `char` - 2 Bytes
+**8 primitive** types:
+
+* Non-numeric types and corresponding Wrapper classes (`immutable`):
+  - `boolean` (`true`, `false`) - 1 Byte (`Boolean`)
+  - `char` - 2 Bytes (`Character`)
 
 
-Numeric types:
-* `byte` - 1 Byte
-* `short` - 2 Bytes
-* `int` - 4 Bytes
-* `long` - 8 Bytes
-* `float`
-* `double`
+* Numeric types:
+  - `byte` - 1 Byte (`Byte`)
+  - `short` - 2 Bytes (`Short`)
+  - `int` - 4 Bytes (`Integer`)
+  - `long` - 8 Bytes (`Long`)
+  - `float` - (`Float`)
+  - `double` - (`Double`)
+
+
+`Autoboxing` and `unboxing` when primitive type var used with var of wrapper class.
+
 
 ## String
 String is `immutable`.
@@ -68,7 +74,7 @@ while (tokenizer.hasMoreTokens())
 `StringBuilder is mutable`, it is to be used to overcome String immutable nature.
 
 Popular methods:
-* `append(), insert(), replase(), delete()`
+* `append(), insert(), replace(), delete()`
 * `charAt(), setCharAt(), deleteCharAt()`
 * `substring(), reverse()`
 * `indexOf(), lastIndexOf()`
@@ -82,5 +88,5 @@ String str = new StringBuilder("Hello world!")
 ```
 
 ### StringBuffer
-Similar to StringBuilder, methods of StringBuffer marked as `synchronized` for use in multithreaded applications.
+Similar to `StringBuilder`, methods of `StringBuffer` marked as `synchronized` for use in multithreaded applications.
 
