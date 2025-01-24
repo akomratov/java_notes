@@ -5,9 +5,9 @@
 
 ## Primitive types
 
-**8 primitive** types:
+**8 primitive** types and corresponding **Wrapper classes** (`immutable`):
 
-* Non-numeric types and corresponding Wrapper classes (`immutable`):
+* Non-numeric types:
   - `boolean` (`true`, `false`) - 1 Byte (`Boolean`)
   - `char` - 2 Bytes (`Character`)
 
@@ -23,6 +23,15 @@
 
 `Autoboxing` and `unboxing` when primitive type var used with var of wrapper class.
 
+## Special keywords
+* `void` - no return value
+* `var` - auto detected type based on value type (since Java 11)
+
+
+```java
+var i = 1; // 'int' type
+var s = "Hello"; // 'String' type
+```
 
 ## String
 String is `immutable`.

@@ -1,4 +1,7 @@
 # Collections
+Collections don't accept **primitive** types.
+
+Use **wrapper** classes.
 
 ## ArrayList
 
